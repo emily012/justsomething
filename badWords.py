@@ -20,5 +20,5 @@ for i in message.split():
 	# if it's not contain any bad word then don't cencored it
 	else:
 		encrypt += i+" "
-	#send to the other user
+#send to the other user
 print(encrypt)
